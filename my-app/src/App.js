@@ -1,15 +1,15 @@
 import './App.css';
-import { Greet, ReactGreet } from './components/Greet';
-import Greeting from './components/Greeting';
-import Welcome from './components/Welcome';
+import PostForm from './components/PostForm';
+// import GrandParent from './components/GrandParent';
+// import { UserProvider } from './components/userContext';
 
 function App() {
   return (
     <div className="App">
-      <Greet />
-      <ReactGreet />
-      <Greeting />
-      <Welcome />
+      {/* <UserProvider value="Nabendu">
+        <GrandParent />
+      </UserProvider> */}
+      <PostForm />
     </div>
   );
 }
